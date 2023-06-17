@@ -52,9 +52,20 @@ function Experience() {
           </h4>
           <p>Making new client and making good client relation .</p>
         </VerticalTimelineElement>
-
-        
-       
+            <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2023 Jan - 2023 March"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Android Developer - NICS(National Institute for Carrier Service )
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Noida , Uttar Pradesh
+          </h4>
+          <p>Working on a Project Under MINISTRY OF LABOUR & EMPLOYMENT </p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );
